@@ -86,12 +86,17 @@ public class Servidor extends Thread {
 		} catch (Exception e) {
 			System.out.println(e);
 		}
-		
-
-		
+		System.out.println("Cerrando La Conexion");
+		try {
+			socket.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public static void main(String[] args) {
+		Servidor server = new Servidor(8000);
+		server.start();
 	}
 
 }
