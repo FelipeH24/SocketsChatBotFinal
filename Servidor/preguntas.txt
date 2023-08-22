@@ -1,0 +1,20 @@
+¿Cual es tu nombre?
+¿Cuantos años tienes?
+¿A que te dedicas?
+¿Como has estado?
+¿Te gusta jugar?
+¿Has viajado?
+¿Messi o Ronaldo?
+¿CocaCola o Pepsi?
+¿Frio o Calor?
+1¿Te gusta el deporte?
+¿Serie favorita?
+¿Comida preferida?
+¿Tienes mascota?
+¿Tienes hermanos?
+¿Vives solo?
+¿Casa o apartamento?
+¿agua o gaseosa?
+¿Queso o jamon?
+¿Futbol o volley?
+¿Materia favorita?
