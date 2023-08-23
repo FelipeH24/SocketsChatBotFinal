@@ -27,7 +27,7 @@ public class Cliente extends Thread {
 	public void run() {
 		try {
 			this.socket = new Socket(this.adress, this.port);
-			System.out.println("Conectando...");
+			System.out.println("Conectado.");
 
 			this.out = new ObjectOutputStream(socket.getOutputStream());
 
@@ -82,8 +82,8 @@ public class Cliente extends Thread {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Cliente cl = new Cliente("127.0.0.1", 8000);
+		cl.start();
 	}
 
 }
